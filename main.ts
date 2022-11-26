@@ -1,12 +1,12 @@
 input.onButtonPressed(Button.A, function () {
-    pins.digitalWritePin(DigitalPin.P1, 0)
-})
-input.onButtonPressed(Button.AB, function () {
     id += 1
     basic.showNumber(id)
     if (id > 6) {
         id = 0
     }
+})
+input.onButtonPressed(Button.AB, function () {
+    huskylens.forgetLearn()
 })
 let id = 0
 huskylens.initI2c()
