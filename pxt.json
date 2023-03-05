@@ -1,12 +1,12 @@
 {
-    "name": "ML Classifier - Husky AI test",
+    "name": "MAIN ML Classifier - Husky AI test",
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*",
         "microphone": "*",
         "robotbit": "github:kittenbot/pxt-robotbit#v0.4.4",
-        "Huskylens": "github:dfrobot/pxt-dfrobot_huskylens#v2.0.5"
+        "Huskylens": "github:dfrobot/pxt-dfrobot_huskylens#v2.0.5",
+        "microbit-pxt-clicks": "github:bsiever/microbit-pxt-clicks#v0.2.2"
     },
     "files": [
         "main.blocks",
